@@ -1,4 +1,8 @@
 name: Post Welcome Comment By NKS
 on: 
   pull_request:
-    types: [opened]
+    types: [opened] 
+jobs:
+  build:
+    name: Post Welcome comment
+    runs-on: ubuntu-latest
